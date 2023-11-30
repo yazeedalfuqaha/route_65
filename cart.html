@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <!-- CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    
+
+    <!-- JS -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <!-- box-icon -->
+    <link href="https://cdn.jsdelivr.net/boxicons/2.0.7/css/boxicons.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-Avb2QiuDEEvB4bZJYdft2mNjVShBftLdPG8FJ0V7irTLQ8Uo0qcPxh4Plq7G5tGm0rU+1SPhVotteLpBERwTkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+    
+    <title>Cart Page</title>
+  </head>
+  <body>
+    <section class="pt-5 pb-5">
+        <div class="container">
+          <div class="row w-100">
+              <div class="col-lg-12 col-md-12 col-12">
+                  <h3 class="display-5 mb-2 text-center">Shopping Cart</h3>
+                  <p class="mb-5 text-center">
+                      <i class="text-info font-weight-bold">3</i> items in your cart</p>
+                  <table id="shoppingCart" class="table table-condensed table-responsive">
+                      <thead>
+                          <tr>
+                              <th style="width:60%">Product</th>
+                              <th style="width:12%">Price</th>
+                              <th style="width:10%">Quantity</th>
+                              <th style="width:6%; ">Action</th>
+                          </tr>
+                      </thead>
+                      <tbody>
+                          <tr>
+                              <td data-th="Product">
+                                  <div class="row">
+                                      <div class="col-md-3 text-left">
+                                          <img src="images/qre.jpeg" alt="" class="img-fluid d-none d-md-block rounded mb-2 shadow ">
+                                      </div>
+                                      <div class="col-md-9 text-left mt-sm-2">
+                                          <h4>Product Name</h4>
+                                          <p class="font-weight-light">Brand &amp; Name</p>
+                                      </div>
+                                  </div>
+                              </td>
+                              <td data-th="Price">$49.00</td>
+                              <td data-th="Quantity">
+                                  <input type="number" class="form-control form-control-lg text-center" value="1">
+                              </td>
+                              <td class="actions" data-th="">
+                                  <div class="text-right">
+                                      
+                                      <button class="btn btn-white border-secondary bg-white btn-md mb-2">
+                                          <i class="fas fa-trash " style="padding: 8px; color: red;"></i>
+                                      </button>
+                                  </div>
+                              </td>
+                          </tr>
+                          <tr>
+                              <td data-th="Product">
+                                  <div class="row">
+                                      <div class="col-md-3 text-left">
+                                          <img src="images/qre.jpeg" alt="route65" class="img-fluid d-none d-md-block rounded mb-2 shadow ">
+                                      </div>
+                                      <div class="col-md-9 text-left mt-sm-2">
+                                          <h4>Product Name</h4>
+                                          <p class="font-weight-light">Brand &amp; Name</p>
+                                      </div>
+                                  </div>
+                              </td>
+                              <td data-th="Price">$49.00</td>
+                              <td data-th="Quantity">
+                                  <input type="number" class="form-control form-control-lg text-center" value="1">
+                              </td>
+                              <td class="actions" data-th="">
+                                  <div class="text-right">
+                                      
+                                      <button class="btn btn-white border-secondary bg-white btn-md mb-2">
+                                          <i class="fas fa-trash"  style="padding: 8px; color: red;"></i>
+                                      </button>
+                                  </div>
+                              </td>
+                          </tr>
+                          <tr>
+                              <td data-th="Product">
+                                  <div class="row">
+                                      <div class="col-md-3 text-left">
+                                          <img src="images/qre.jpeg" alt="" class="img-fluid d-none d-md-block rounded mb-2 shadow ">
+                                      </div>
+                                      <div class="col-md-9 text-left mt-sm-2">
+                                          <h4>Product Name</h4>
+                                          <p class="font-weight-light">Brand &amp; Name</p>
+                                      </div>
+                                  </div>
+                              </td>
+                              <td data-th="Price">$49.00</td>
+                              <td data-th="Quantity">
+                                  <input type="number" class="form-control form-control-lg text-center" value="1">
+                              </td>
+                              <td class="actions" data-th="">
+                                  <div class="text-right">
+                                     
+                                      <button class="btn btn-white border-secondary bg-white btn-md mb-2">
+                                          <i class="fas fa-trash"  style="padding: 8px; color: red;"></i>
+                                      </button>
+                                  </div>
+                              </td>
+                          </tr>
+                      </tbody>
+                  </table>
+                  <div class="float-right text-right">
+                      <h4>Subtotal:</h4>
+                      <h1>$99.00</h1>
+                  </div>
+              </div>
+          </div>
+          <div class="row mt-4 d-flex align-items-center">
+              <div class="col-sm-6 order-md-2 text-right">
+                  <a href="catalog.html" class="btn btn-primary mb-4 btn-lg pl-5 pr-5">Checkout</a>
+              </div>
+              <div class="col-sm-6 mb-3 mb-m-1 order-md-1 text-md-left">
+                  <a href="catalog.html" class="btn btn-primary">
+                      <i class="fas fa-arrow-left mr-2"></i> Continue Shopping</a>
+              </div>
+          </div>
+      </div>
+  </body>
+</html>
